@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/tab_how_it_works" />
+
+    <item
+        android:id="@+id/menu_traverse"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/tab_traverse">
+    </item>
+
+    <item
+        android:id="@+id/menu_pitot_tube"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/tab_pitot_tube">
+    </item>
+
+</menu>

@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">TBA Swiss Knife</string>
+
+    <string name="tab_how_it_works">Help</string>
+    <string name="tab_pitot_tube">Pitot</string>
+    <string name="tab_traverse">Traverse</string>
+    <string name="tab_list_traverses">Archive</string>
+    <string name="tab_settings">Settings</string>
+
+    <string name="menuTraverseSave">Save</string>
+
+    <string name="pref_language">Language</string>
+    <string name="pref_search">Search</string>
+
+    <!-- TRAVERSE -->
+    <!-- TRAVERSE -->
+    <!-- TRAVERSE -->
+    <!-- TRAVERSE -->
+    <!-- TRAVERSE -->
+
+    <string name="formula_volume">Q(flow rate) = A(cross-section area) × v(flow velocity)</string>
+    <string name="formula_area_circ">A(area) = 3.14 × (diameter / 2)²</string>
+    <string name="formula_area_rect">A(area) = w(width) × h(height)</string>
+    <string name="formula_area_oval">A = (w — h) × h + 3.14 × (h / 2)²</string>
+
+    <string name="textLabelCross">×</string>
+    <string name="textLabelDia">Ø</string>
+    <string name="textLabelArrow">⇒</string>
+    <string name="textLabelEqual">=</string>
+
+    <string name="titleUnitSize">Select unit of dimensions</string>
+    <string name="unit_size_inch">inch.</string>
+    <string name="unit_size_mm">mm</string>
+    <string-array name="u_size_text">
+        <item>inches</item>
+        <item>millimeters</item>
+    </string-array>
+
+    <string name="titleUnitArea">Select unit of Area</string>
+    <string name="unit_area_sqft">sq.ft</string>
+    <string name="unit_area_sqm">sq.m</string>
+    <string-array name="u_area_text">
+        <item>sq.ft</item>
+        <item>m²</item>
+    </string-array>
+
+    <string name="titleUnitVelocity">Select unit of Velocity</string> <!-- prędkość przepływu -->
+    <string name="unit_velocity_fpm">fpm</string>
+    <string name="unit_velocity_ms">m/s</string>
+    <string-array name="u_velocity_text">
+        <item>fpm</item>
+        <item>m/s</item>
+    </string-array>
+
+    <string name="titleUnitVolume">Select unit of Volume</string> <!-- pryepływ -->
+    <string name="unit_volume_cfm">CFM</string>
+    <string name="unit_volume_ls">L/s</string>
+    <string name="unit_volume_cmh">cu.m/h</string>
+    <string-array name="u_volume_text">
+        <item>cfm</item>
+        <item>l/s</item>
+        <item>m³/h</item>
+    </string-array>
+
+    <string name="method_logt">The Log-Tchebycheff (Log-T)</string>
+    <string name="method_area">The Equal Areas</string>
+    <string-array name="method_text">
+        <item>Log-T</item>
+        <item>Equal Areas</item>
+    </string-array>
+
+    <string name="textDialogPercentageImperial">Type design volume (CFM)</string>
+    <string name="textDialogPercentageMetric">Type design volume (L./s)</string>
+    <string name="textDialogSize">New dimension is </string>
+    <string name="textDialogVelocity">New velocity is </string>
+    <string name="textDialogRate">Design volume is </string>
+
+    <string name="dialog_stub">There are not logged records at this point.</string>
+
+    <string name="labelWidth">width</string>
+    <string name="labelHeight">height</string>
+    <string name="labelDiameter">diameter</string>
+    <string name="labelArea">area</string>
+    <string name="labelVelocity">flow velocity</string>
+    <string name="labelVolume">volume</string>
+    <string name="labelDesign">rate</string>
+
+    <string name="ductshape_rect">Rectangular</string>
+    <string name="ductshape_circ">Round duct</string>
+    <string name="ductshape_oval">Oval duct</string>
+
+    <string name="pretext_ratio"> of </string>
+
+    <!-- SETTINGS -->
+    <!-- SETTINGS -->
+    <!-- SETTINGS -->
+    <!-- SETTINGS -->
+    <!-- SETTINGS -->
+
+    <string name="labelMeasurementUnit">Mesurement Units:</string>
+    <string name="menuUnitImperial">Imperial</string>
+    <string name="menuUnitMetric">Metric</string>
+    <string name="labelMethodCalculation">The method of calculations:</string>
+    <string name="menuMethodLogT">Log-Tchebycheff (Log-T)</string>
+    <string name="menuMethodArea">Equal Areas</string>
+
+    <!-- ABOUT -->
+    <!-- ABOUT -->
+    <!-- ABOUT -->
+    <!-- ABOUT -->
+    <!-- ABOUT -->
+
+    <string name="aboutName">How It Works:</string>
+    <string name="aboutVersion">Version 6</string>
+    <string name="aboutEmail">deemmel@gmail.com</string>
+    <string name="aboutCopyright">2016 &#8211; 2018</string>
+    <string name="aboutMain">Swipe LEFT or RIGHT to change a view. You can use for it a menu as well.&lt;h2>Pitot Tube:&lt;/h2>Just look and use.&lt;br>&lt;br>&lt;h2>Traverses:&lt;/h2>Changeable parameters have the RED outline. Touch one and use a pop-up keyboard to set a value.&lt;br>Use the SAVE button to record a voice note.&lt;br>&lt;br> &lt;h2>Recorded Traverses:&lt;/h2>Long press onto reading that must be deleted.&lt;br>Touch the readings and listen a voice note.&lt;br>&lt;br>Any comments and suggestions are welcome.</string>
+
+	<string name="readings_condition">A traverse plane is suitable for flow measurements if more than 75% of the velocity pressure readings are greater than 1/10 of the maximum velocity measurement and are not negative.</string>
+
+</resources>
